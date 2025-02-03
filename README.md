@@ -66,7 +66,7 @@ generated_text = model.text_generation(
 ```
 
 ### Option 2: Python API
-```
+```python
 from optimum.executorch import ExecuTorchModelForCausalLM
 from transformers import AutoTokenizer
 
