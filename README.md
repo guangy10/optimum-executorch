@@ -47,7 +47,7 @@ optimum-cli export executorch \
 
 #### Step 2: Load and run inference
 Use the exported model for text generation:
-```
+```python
 from optimum.executorch import ExecuTorchModelForCausalLM
 from transformers import AutoTokenizer
 
